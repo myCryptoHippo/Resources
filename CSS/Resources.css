@@ -1,0 +1,152 @@
+body{
+    font-family:'Open Sans';
+}
+#mainPanel{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: calc(10vw + 135px);
+}
+
+
+#image{
+    max-width: 500px;
+    max-height: 300px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Left container */
+#left{
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 2px solid #8D369B;
+}
+
+/* Center container*/
+#center{
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 2px solid #8D369B;
+}
+
+/* Right container */
+#right{
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 2px solid #8D369B;
+}
+
+/* Text block*/
+#block{
+    width: 1000px;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+    height: auto;
+}
+
+#header{
+    color: #707070;
+    font-size: 16px;
+    margin: 15px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+#title{
+    font-family: Open Sans;
+    color: #2f2f2f;
+    font-size: 150%;
+    margin: 15px;
+    margin-bottom: 20px;
+    font-weight: bold; 
+    display: block;
+    float: left; 
+    height: auto;
+}
+
+#title:hover{
+    color: #d39dc7;
+}
+
+a:hover{
+    color: #d39dc7;
+}
+
+
+@media screen and (min-width: 1000px) {
+    #mainPanel{
+        height: 850px;
+    }
+    
+    #image{
+        width: calc(47vw - 390px);
+    }
+
+    #block{
+        width: calc(47vw - 390px);
+    }
+
+    #left{
+        width: calc(47vw - 390px);
+        margin-left: 5vw;
+    }
+
+    #center{
+        width: calc(47vw - 390px);
+        margin-left: 30vw;
+    }
+
+    #right{
+        width: calc(47vw - 390px);
+        margin-left: 55vw;
+    }
+}
+
+
+#link{
+    cursor: pointer;
+    color: #46b7e0;
+    text-decoration: underline;
+}
+
+#link:hover{
+    color: #286982;
+}
+
+#he1{
+    position: absolute;
+    width: 50px;
+    text-align: center;
+}
+#he2{
+    position: absolute;
+    margin-left: 80px;
+}
+
+#person{
+    font-size: 14px;
+    margin-left: 18px;
+    height: 10px;
+    height: 50px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+#pe1{
+    position: absolute;
+    width: 50px;
+    text-align: center;
+}
+#personPic{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 7px;
+    width: 25px;
+}
+#pe2{
+    position: absolute;
+    margin-left: 95px;
+}
+
