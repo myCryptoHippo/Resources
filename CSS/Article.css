@@ -5,20 +5,31 @@ body{
 .title{
     color: #2f2f2f;
     margin-left: 150px;
-    margin-top: 50px; 
+    margin-top: 75px; 
     font-size: 32px;
     margin-bottom: 10px;
 }
 
 .author{
-    font-size: 16px;
+    font-size: 18px;
     color: #1f1f1f;
     margin-left: 150px;
     font-weight: bold; 
 }
 
 .date{
-    font-size: 14px;
+    font-size: 18px;
     color: #d6d6d6;
     margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.content{
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-weight: bold; 
+    max-width: 700px;
+    line-height: 30px;
 }
