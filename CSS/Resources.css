@@ -38,13 +38,12 @@ body{
     border: 2px solid #8D369B;
 }
 
-/* Text block*/
-#block{
-    width: 1000px;
-    border-radius: 5px;
-    background-color: white;
-    overflow: hidden;
-    height: auto;
+#container{
+	float: left;
+    margin: 30px;
+    border-radius: 7px;
+    border: 2px solid #8D369B;
+	height: 200px;
 }
 
 #header{
@@ -56,7 +55,6 @@ body{
 }
 
 #title{
-    font-family: Open Sans;
     color: #2f2f2f;
     font-size: 125%;
     margin: 15px;
@@ -76,77 +74,29 @@ a:hover{
 }
 
 
-@media screen and (min-width: 1000px) {
-    #mainPanel{
-        height: 850px;
-    }
-    
+@media screen and (min-width: 800px) {
+	#container{
+		width: calc(30vw - 110px);
+	}
     #image{
-        width: calc(47vw - 390px);
+		width: calc(30vw - 110px);
     }
-
     #block{
-        width: calc(47vw - 390px);
+		width: calc(30vw - 130px);
+		background-color: red;
     }
 
-    #left{
-        width: calc(47vw - 390px);
-        margin-left: 5vw;
+}
+
+@media screen and (max-width: 800px) and (min-width:500px) {
+	#container{
+		width: calc(42vw - 120px);
+	}
+    #image{
+		width: calc(42vw - 120px);
+    }
+    #block{
+		width: calc(42vw - 120px);
     }
 
-    #center{
-        width: calc(47vw - 390px);
-        margin-left: 30vw;
-    }
-
-    #right{
-        width: calc(47vw - 390px);
-        margin-left: 55vw;
-    }
 }
-
-
-#link{
-    cursor: pointer;
-    color: #46b7e0;
-    text-decoration: underline;
-}
-
-#link:hover{
-    color: #286982;
-}
-
-#he1{
-    position: absolute;
-    width: 50px;
-    text-align: center;
-}
-#he2{
-    position: absolute;
-    margin-left: 80px;
-}
-
-#person{
-    font-size: 14px;
-    margin-left: 18px;
-    height: 10px;
-    height: 50px;
-  line-height: 40px;
-  white-space: nowrap;
-}
-#pe1{
-    position: absolute;
-    width: 50px;
-    text-align: center;
-}
-#personPic{
-    position: absolute;
-    margin-left: 60px;
-    margin-top: 7px;
-    width: 25px;
-}
-#pe2{
-    position: absolute;
-    margin-left: 95px;
-}
-
