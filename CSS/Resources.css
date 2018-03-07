@@ -43,7 +43,8 @@ body{
     margin: 30px;
     border-radius: 7px;
     border: 2px solid #8D369B;
-	height: 200px;
+	overflow: hidden;
+    height: auto;
 }
 
 #header{
@@ -83,7 +84,7 @@ a:hover{
     }
     #block{
 		width: calc(30vw - 130px);
-		background-color: red;
+
     }
 
 }
